@@ -19,7 +19,6 @@ body{
     text-align: center;
     color: var(--background);
     background-image: url("files/umbrella.png");
-    background-repeat;
     width:auto;
     height: 18rem;
     border: none;
@@ -44,21 +43,9 @@ hr {
     margin-top: 2cm;
 }
 
-.serie {
-    font-size: 25px;
-}
-
-.nome {
-    font-size: 22px;
-    margin-left: 47rem;
-    margin-top: -3rem;
-    width: 400px;
-}
-
-.hqs {
-    font-size: 25px;
-    margin-left: 104rem;
-    margin-top: -1em;
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
