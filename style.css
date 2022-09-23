@@ -8,7 +8,7 @@
 body{
     background-color: var(--background);
     color: var(--text);
-    margin: 1rem 6rem 0rem 6rem;
+    margin: 1rem 6rem 1rem 6rem;
     font-size: 30px;
 }
 
@@ -18,13 +18,15 @@ body{
     font-size: 60px;
     color: var(--background);
     background-image: url("files/umbrella.png");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 18rem;
     border: none;
-    padding: 2rem 3rem 3rem 0px;
+    padding: 2rem 3rem 0rem 3rem;
 
 }
 
-strong {
+.tua {
     color: var(--strong);
 }
 
