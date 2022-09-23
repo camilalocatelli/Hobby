@@ -16,14 +16,11 @@ body{
 #title {
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
-    text-align: center;
     color: var(--background);
     background-image: url("files/umbrella.png");
-    width:auto;
     height: 18rem;
     border: none;
-    margin: 0px 0px 0px 0rem;
-    padding: 2rem 7rem 3rem 0px;
+    padding: 2rem 3rem 3rem 0px;
 
 }
 
